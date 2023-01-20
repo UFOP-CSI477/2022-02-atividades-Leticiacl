@@ -10,4 +10,12 @@
 
 ## [Projeto final:](./Projeto/README.md)
 
-Apresente uma breve descrição do seu projeto.
+O meu projeto final será um gerenciador de senhas.
+Será basicamente um sistema onde o usuário conseguirá guardar sua contas, senhas e dados sensíveis. 
+
+Possíveis funcionalidades
+
+- Verificar a qualidade da senha utilizada (nível de força) 
+- Gerar senhas fortes
+- Verificar se a senha já foi vazada em algum banco de dados conhecido
+- Acessar remotamente em outros dispositivos
