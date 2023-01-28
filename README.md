@@ -29,8 +29,6 @@ https://www.figma.com/file/rvW3owDhrhSGY4ezdORQXr/KK---KEY-KEEPER?node-id=0%3A1
 ![Mobile - Menu](https://user-images.githubusercontent.com/64208473/215272030-2cd58129-cc6c-4094-975a-4647cbcdade3.png)
 ![Desktop - Home](https://user-images.githubusercontent.com/64208473/215272026-6565f602-d39e-4bb3-b174-2a6e824fec1e.png)
 
-![Sem título-3](https://user-images.githubusercontent.com/64208473/215272434-51a3e47c-6b16-40dc-bd78-3317c1e800a2.png)
-
 ## Framework
 - Front-end: React.js
 - Back-end: AdonisJs
