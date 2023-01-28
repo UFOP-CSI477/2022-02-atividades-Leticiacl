@@ -23,12 +23,13 @@ Possíveis funcionalidades
 ## Protótipo
 https://www.figma.com/file/rvW3owDhrhSGY4ezdORQXr/KK---KEY-KEEPER?node-id=0%3A1
 
-![Password Generation](<img src= "https://user-images.githubusercontent.com/64208473/215272025-b08b6f1a-19f0-4bb3-874a-61efe790525f.png" width="300")
+![Password Generation](https://user-images.githubusercontent.com/64208473/215272025-b08b6f1a-19f0-4bb3-874a-61efe790525f.png)
 ![Home](https://user-images.githubusercontent.com/64208473/215272028-702396b8-7c9b-4876-a641-38a456f0df9f.png)
 ![Login Page](https://user-images.githubusercontent.com/64208473/215272029-4d174b2e-7bf8-492c-80ba-147323709f21.png)
 ![Mobile - Menu](https://user-images.githubusercontent.com/64208473/215272030-2cd58129-cc6c-4094-975a-4647cbcdade3.png)
 ![Desktop - Home](https://user-images.githubusercontent.com/64208473/215272026-6565f602-d39e-4bb3-b174-2a6e824fec1e.png)
 
+![Sem título-3](https://user-images.githubusercontent.com/64208473/215272434-51a3e47c-6b16-40dc-bd78-3317c1e800a2.png)
 
 ## Framework
 - Front-end: React.js
