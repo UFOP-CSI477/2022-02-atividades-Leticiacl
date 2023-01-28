@@ -24,9 +24,9 @@ Possíveis funcionalidades
 https://www.figma.com/file/rvW3owDhrhSGY4ezdORQXr/KK---KEY-KEEPER?node-id=0%3A1
 
 ## Framework
-Front-end: React.js
-Back-end: AdonisJs
+- Front-end: React.js
+- Back-end: AdonisJs
 
 ## Linguagens
-Front-end: TypeScript
-Back-end: TypeScript
+- Front-end: TypeScript
+- Back-end: TypeScript
