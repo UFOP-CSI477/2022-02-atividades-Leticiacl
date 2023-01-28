@@ -20,13 +20,13 @@ Possíveis funcionalidades
 - Verificar se a senha já foi vazada em algum banco de dados conhecido
 - Acessar remotamente em outros dispositivos
 
-## [Protótipo]
+## Protótipo
 https://www.figma.com/file/rvW3owDhrhSGY4ezdORQXr/KK---KEY-KEEPER?node-id=0%3A1
 
-## [Framework]
+## Framework
 Front-end: React.js
 Back-end: AdonisJs
 
-## [Linguagens]
+## Linguagens
 Front-end: TypeScript
 Back-end: TypeScript
