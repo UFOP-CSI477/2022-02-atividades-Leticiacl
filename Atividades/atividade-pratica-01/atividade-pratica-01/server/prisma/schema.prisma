@@ -1,0 +1,123 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Estado {
+  id         Int      @id @default(autoincrement())
+  nome       String
+  sigla      String
+  created_at DateTime @default(now())
+
+  cidade Cidade[]
+
+  @@map("estados")
+}
+
+model Cidade {
+  id        Int    @id @default(autoincrement())
+  nome      String
+  estado_id Int
+  estado    Estado @relation(fields: [estado_id], references: [id])
+
+  pessoas  Pessoa[]
+  locais   Local[]
+  unidades Unidade[]
+
+  created_at DateTime @default(now())
+
+  @@map("cidades")
+}
+
+model Pessoa {
+  id                Int    @id @default(autoincrement())
+  nome              String
+  cidade_id         Int
+  tipo_sanguineo_id Int
+
+  cidade         Cidade @relation(fields: [cidade_id], references: [id])
+  tipo_sanguineo Sangue @relation(fields: [tipo_sanguineo_id], references: [id])
+
+  doacoes Doacao[]
+
+  @@map("pessoas")
+}
+
+model Local {
+  id        Int    @id @default(autoincrement())
+  nome      String
+  cidade_id Int
+
+  cidade Cidade @relation(fields: [cidade_id], references: [id])
+
+  doacoes Doacao[]
+
+  @@map("locais_coleta")
+}
+
+model Doacao {
+  id        Int @id @default(autoincrement())
+  pessoa_id Int
+  local_id  Int
+
+  pessoa Pessoa @relation(fields: [pessoa_id], references: [id])
+  local  Local  @relation(fields: [local_id], references: [id])
+
+  produtos Produto[]
+}
+
+model Sangue {
+  id    Int    @id @default(autoincrement())
+  tipo  String
+  fator String
+
+  pessoas Pessoa[]
+
+  @@map("tipos_sanguineos")
+}
+
+model Produto {
+  id        Int      @id @default(autoincrement())
+  etiqueta  String
+  doacao_id Int
+  validade  DateTime
+
+  doacao Doacao @relation(fields: [doacao_id], references: [id])
+
+  distribuicoes Distribuicao[]
+
+  @@map("produtos")
+}
+
+model Distribuicao {
+  id         Int      @id @default(autoincrement())
+  produto_id Int
+  unidade_id Int
+  data       DateTime
+
+  produto Produto @relation(fields: [produto_id], references: [id])
+  unidade Unidade @relation(fields: [unidade_id], references: [id])
+
+  @@map("distribuicoes")
+}
+
+model Unidade {
+  id          Int    @id @default(autoincrement())
+  nome        String
+  numero      String
+  complemento String
+  cidade_id   Int
+
+  cidade Cidade @relation(fields: [cidade_id], references: [id])
+
+  distribuicoes Distribuicao[]
+
+  @@map("unidades")
+}
