@@ -1,35 +1,38 @@
-# **CSI606-2021-02 - Remoto - Proposta de Trabalho Final**
+# **CSI606-2021-02 - Estrutura básica do repositório**
 
-## *Aluna(o): Princesa Leia (Luke Skywalker)*
+## Atualize os seus dados
 
---------------
+- Nome:  Letícia Cristina Lacerda
+- Matrícula: 18.2.8090
+- Curso: Sistemas de Informação
+- Semestre/Ano correntes: 2022/2
+- Link para o seu GitHub: https://github.com/Leticiacl
 
-<!-- Descrever um resumo sobre o trabalho. -->
+## [Sobre o Projeto final:](./Projeto/README.md)
 
-### Resumo
+O meu projeto final será um gerenciador de senhas.
+Será basicamente um sistema onde o usuário conseguirá guardar sua contas, senhas e dados sensíveis. 
 
-  (Apresentar um breve resumo sobre o seu trabalho, indicando o contexto e as principais funcionalidades.)
+Possíveis funcionalidades
 
-<!-- Apresentar o tema. -->
-### 1. Tema
+- Verificar a qualidade da senha utilizada (nível de força) 
+- Gerar senhas fortes
+- Verificar se a senha já foi vazada em algum banco de dados conhecido
+- Acessar remotamente em outros dispositivos
 
-  O trabalho final tem como tema o desenvolvimento de ...
+## Protótipo
+https://www.figma.com/file/rvW3owDhrhSGY4ezdORQXr/KK---KEY-KEEPER?node-id=0%3A1
 
-<!-- Descrever e limitar o escopo da aplicação. -->
-### 2. Escopo
+![Password Generation](https://user-images.githubusercontent.com/64208473/215272025-b08b6f1a-19f0-4bb3-874a-61efe790525f.png)
+![Home](https://user-images.githubusercontent.com/64208473/215272028-702396b8-7c9b-4876-a641-38a456f0df9f.png)
+![Login Page](https://user-images.githubusercontent.com/64208473/215272029-4d174b2e-7bf8-492c-80ba-147323709f21.png)
+![Mobile - Menu](https://user-images.githubusercontent.com/64208473/215272030-2cd58129-cc6c-4094-975a-4647cbcdade3.png)
+![Desktop - Home](https://user-images.githubusercontent.com/64208473/215272026-6565f602-d39e-4bb3-b174-2a6e824fec1e.png)
 
-  Este projeto terá as seguintes funcionalidades...
+## Framework
+- Front-end: React.js
+- Back-end: AdonisJs
 
-<!-- Apresentar restrições de funcionalidades e de escopo. -->
-### 3. Restrições
-
-  Neste trabalho não serão considerados ...
-
-<!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
-### 4. Protótipo
-
-  Protótipos para as páginas (descrever quais páginas) foram elaborados, e podem ser encontrados em...
-
-### 5. Referências
-
-  Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT.
+## Linguagens
+- Front-end: TypeScript
+- Back-end: TypeScript

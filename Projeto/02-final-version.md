@@ -30,8 +30,8 @@ Decorrente dessa inexperiência aconteceram vários erros na ferramenta que util
 ### 5. Instruções para instalação e execução
 Após o download dos arquivos, deve-se utilizar os seguintes comandos dentro das pastas frontend e backend:
 
-ou npm i
-ou npm run start
+npm i
+npm run start
 
 ### 6. Referências
 YOUTUBE. (2020). Como fazer referências na ABNT? [Vídeo]. Disponível em: https://www.youtube.com/watch?v=y8XfJJYhXPE.
