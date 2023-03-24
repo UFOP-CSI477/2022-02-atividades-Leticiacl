@@ -1,6 +1,6 @@
 # **CSI606-2021-02 - Remoto - Trabalho Final - Resultados**
 
-## *Aluna(o): Princesa Leia (Luke Skywalker)*
+## *Aluna: Letícia Cristina Lacerda*
 
 --------------
 
@@ -8,22 +8,30 @@
 
 ### Resumo
 
-  (Apresentar um breve resumo sobre o seu trabalho, indicando o contexto e as principais funcionalidades.)
+O projeto final chamado key keeper é um gerenciador de senhas onde o usuário consegue guardar sua contas, senhas e dados sensíveis.
 
 ### 1. Funcionalidades implementadas
-<!-- Descrever as funcionalidades que eram previstas e foram implementas. -->
+- Verificar a qualidade da senha utilizada (nível de força) 
+- Gerar senhas fortes
+- Acessar remotamente em outros dispositivos
   
 ### 2. Funcionalidades previstas e não implementadas
-<!-- Descrever as funcionalidades que eram previstas e não foram implementas, apresentando uma breve justificativa do porquê elas não foram incluídas -->
+Verificar se a senha já foi vazada em algum banco de dados conhecido.
+
+Essa funcionalidade não pôde ser implementada principalmente por pouco conhecimento da linguagem.
 
 ### 3. Outras funcionalidades implementadas
-<!-- Descrever as funcionalidades implementas além daquelas que foram previstas, caso se aplique.  -->
+Criar uma conta no sistema, permitindo sincronizar em outros dispositivos.
 
 ### 4. Principais desafios e dificuldades
-<!-- Descrever os principais desafios encontrados no desenvolvimento do trabalho, quais foram as dificuldades e como elas foram superadas e resolvidas. -->
+A maior dificuldade foi o backend, por eu não possuir experiência alguma na área.
+Decorrente dessa inexperiência aconteceram vários erros na ferramenta que utilizava e optei por utilizar o Adonis por conselhos e auxílios de pessoas próximas.
 
 ### 5. Instruções para instalação e execução
-<!-- Descrever o que deve ser feito para instalar (ou baixar) a aplicação, o que precisa ser configurando (parâmetros, banco de dados e afins) e como executá-la. -->
+Após o download dos arquivos, deve-se utilizar os seguintes comandos dentro das pastas frontend e backend:
+
+ou npm i
+ou npm run start
 
 ### 6. Referências
-<!-- Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT. -->
+YOUTUBE. (2020). Como fazer referências na ABNT? [Vídeo]. Disponível em: https://www.youtube.com/watch?v=y8XfJJYhXPE.
