@@ -31,6 +31,7 @@ Decorrente dessa inexperiência aconteceram vários erros na ferramenta que util
 Após o download dos arquivos, deve-se utilizar os seguintes comandos dentro das pastas frontend e backend:
 
 npm i
+
 npm run start
 
 ### 6. Referências
